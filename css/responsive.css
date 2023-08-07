@@ -1,0 +1,22 @@
+@media(max-width:900px) {
+    .nav {
+        flex-direction: column-reverse;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .nav-socials {
+        flex-direction: row;
+        margin-top: 4em;
+    }
+
+    .nav-socials a {
+        padding: 0 0.4em;
+    }
+
+    .nav-footer {
+        display: none;
+    }
+}
